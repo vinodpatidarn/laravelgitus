@@ -20,4 +20,3 @@ use Illuminate\Support\Facades\Route;
 route::view('username/','hello');
 
 route::get('userinfo/','Uservinod@index')->middleware('username');
-route:view();
