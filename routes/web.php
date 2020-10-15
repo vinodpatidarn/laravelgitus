@@ -17,6 +17,6 @@ use Illuminate\Support\Facades\Route;
 // // ;});
 // route::redirect("vinodpatidar/","hello");
 // route::get('hello/{id}','Uservinod@index');
-route::view('username/','hello');
+route::view('username/');
 
 route::get('userinfo/','Uservinod@index')->middleware('username');
